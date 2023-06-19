@@ -26,6 +26,8 @@ const server = http.createServer(async (req, res) => {
         res.end(JSON.stringify({ response: response }));
       }
     });
+  } else {
+    res.end("Wrong Method or URL");
   }
 });
 
