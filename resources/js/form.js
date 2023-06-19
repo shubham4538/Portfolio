@@ -91,7 +91,7 @@ $("form").submit((e) => {
 
     // Send data
     $.ajax({
-      url: "http://localhost:3001/formdata",
+      url: "https://portfolio-server-flax.vercel.app/formdata",
       // dataType: "jsonp",
       data: JSON.stringify($dataset),
       type: "POST",
