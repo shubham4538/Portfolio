@@ -38,11 +38,19 @@
       type="text/css"
     />
     <link rel="stylesheet" href="./resources/css/main.css" />
+    <link rel="stylesheet" href="./resources/css/body.css" />
+    <link rel="stylesheet" href="./resources/css/pages.css" />
+    <link rel="stylesheet" href="./resources/css/floaters.css" />
     <link rel="stylesheet" href="./resources/css/style.css" />
+    <script src="./resources/js/theme.js"></script>
+    <link rel="stylesheet" href="./resources/css/light.css" />
+    <link rel="stylesheet" href="./resources/css/dark.css" />
   </head>
-  <body>
+  <body class="">
     <!-- Header -->
-    <header class="fontr flex flex-wrap content-around text-xl xl:text-2xl">
+    <header
+      class="fontr flex flex-wrap content-around items-center text-xl xl:text-2xl"
+    >
       <!-- Image -->
       <div class="name fontb text-2xl">Shubham</div>
 
@@ -54,7 +62,7 @@
       <!-- Tabs -->
       <div
         id="content"
-        class="flex w-full flex-col sm:flex-row sm:w-auto text-center gap-3 sm:gap-5 xl:gap-10"
+        class="flex w-full flex-col sm:flex-row sm:w-auto items-center gap-3 sm:gap-5 xl:gap-10"
       >
         <div><a href="#home" id="link">Home</a></div>
         <div><a href="#aboutme" id="link">About</a></div>
@@ -69,7 +77,7 @@
     <div class="page" id="home">
       <div id="particles-js"></div>
       <div
-        class="z-10 flex flex-col-reverse sm:flex-row sm:items-center items-center justify-center sm:gap-20 gap-8"
+        class="home flex flex-col-reverse sm:flex-row sm:items-center items-center justify-center sm:gap-20 gap-8"
       >
         <div class="flex flex-col gap-2">
           <div
@@ -283,19 +291,24 @@
       </div>
     </div>
 
-    <!-- Notch -->
-    <div class="notch">
-      <i class="fas fa-sun"></i>
-      <i class="fas fa-sun"></i>
+    <!-- New Notch -->
+    <div class="new-notch">
+      <i class="fas fa-chevron-left"></i>
+      <div class="new-abs-icons">
+        <div class="new-notch-icons">
+          <i
+            class="fal fa-sun-bright"
+            title="theme"
+            onclick="Preference('darkTheme')"
+          ></i>
+          <i
+            class="fal fa-file-dashed-line"
+            title="scroll"
+            onclick="Preference('stickyScroll')"
+          ></i>
+        </div>
+      </div>
     </div>
-
-    <!-- Typed.js -->
-    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-
-    <!-- Icons -->
-    <script src="./resources/js/icons.js"></script>
-    <!-- Script -->
-    <script src="./resources/js/script.js"></script>
 
     <!-- JQuery -->
     <script
@@ -304,6 +317,20 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
+
+    <script>
+      $(document).ready(function () {
+        render();
+      });
+    </script>
+    <!-- Typed.js -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- Icons -->
+    <script src="./resources/js/icons.js"></script>
+    <!-- Script -->
+    <script src="./resources/js/script.js"></script>
+
     <script src="./resources/js/form.js"></script>
 
     <!-- Particles.js -->

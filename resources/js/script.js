@@ -10,11 +10,9 @@ link.forEach((ele) => {
 // Nav Resizer
 var toggle = document.getElementById("toggle");
 var content = document.getElementById("content");
-
 toggle.onclick = function () {
   content.classList.toggle("hidden");
 };
-
 var resizeWindow = function (event) {
   if (window.innerWidth <= 640) {
     content.classList.add("hidden");
@@ -92,7 +90,7 @@ var socialTag = document.getElementById("social");
 socialIcons.forEach((imgset) => {
   socialTag.innerHTML += `
     <div class="icons cursor-pointer">
-      <a href={${imgset[2]}} target="_blank">
+      <a href=${imgset[2]} target="_blank">
         <!-- <img
           class="icon"
           src="./resources/images/icons/${imgset[0]}.png"

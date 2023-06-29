@@ -1,0 +1,208 @@
+/* Home */
+#particles-js {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+#particles-js ~ div {
+  pointer-events: none;
+}
+
+/* Home */
+.home {
+  z-index: 10;
+}
+
+/* About */
+.button {
+  cursor: pointer;
+  width: fit-content;
+  padding: 10px 15px;
+  border-radius: 10px;
+  color: #fff;
+  background-color: #3803eb;
+}
+
+.icons {
+  position: relative;
+}
+.icon {
+  opacity: 1;
+  width: 40px;
+  position: absolute;
+  transform: scale(1.03);
+  transition: opacity 0.2s linear;
+}
+.icon:hover {
+  opacity: 0;
+  transform: translateZ(0px);
+  transition: opacity 0.2s linear;
+}
+.iconc {
+  width: 40px;
+}
+
+/* Skills */
+.grid-container {
+  grid-template-columns: repeat(3, 5.5rem);
+  grid-template-rows: repeat(6, 5rem);
+  gap: 0.7rem;
+  padding: 1rem;
+  border-radius: 10px;
+}
+.grid-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(2px);
+  padding: 0.7rem;
+  border-radius: 10px;
+  background: #ffffff4a;
+  box-shadow: inset 2px 2px 2px -1px #ffffff85, 1px 1px 4px -1px #242424cc;
+}
+.grid-icons > img {
+  height: 85%;
+  padding: 0.5rem;
+}
+.language-text {
+  color: #1f1f1f;
+  font-size: 1rem;
+}
+
+/* Education */
+.education-block {
+  display: flex;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 4px 4px 10px -8px #000;
+}
+.edu-img-container {
+  flex: 1 1 11rem;
+  position: relative;
+}
+.edu-img-container img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+.education-content {
+  padding: 1rem;
+  flex: 1 1 31rem;
+}
+
+/* Projects */
+#projects {
+  background: linear-gradient(320deg, #400075b0, #0074cb85);
+}
+.all-projects {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 1rem;
+  margin: 1rem;
+}
+.project {
+  position: relative;
+  overflow: hidden;
+  flex: 1 1 230px;
+  height: 230px;
+  border-radius: 10px;
+  background-color: red;
+}
+.project img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+.card {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 100%;
+  padding: 1rem;
+  color: #ffff;
+  background-color: #3a38afc4;
+  transition: all 0.5s ease-out;
+}
+.card .buttons {
+  flex-grow: 1;
+  align-items: end;
+}
+.card .buttons a {
+  padding: 4px 6px;
+}
+.card .buttons span {
+  font-size: 18px;
+}
+.project:hover .card {
+  top: 0%;
+  transition: all 0.5s ease-out;
+}
+
+/* Contact */
+form {
+  font-size: 1.2rem;
+}
+form i {
+  font-size: 1.3rem;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.contact-form .input-container {
+  display: flex;
+  flex-direction: column;
+}
+.contact-form .input-container input::placeholder {
+  color: #6f6f6f;
+}
+.contact-form .input-icon-container {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  border-radius: 7px;
+  gap: 0.9rem;
+  padding: 1px 14px;
+  border: 1px solid;
+}
+.input-icon-container input {
+  outline: none;
+  height: 50px;
+  width: calc(20vw + 9rem);
+}
+.input-icon-container i {
+  transition: color 0.2s linear;
+}
+.input-icon-container input:focus ~ i {
+  transition: color 0.2s linear;
+  color: purple;
+}
+.input-icon-container:focus-within {
+  padding: 0px 13px;
+  border: 2px solid purple;
+}
+#form #form-submit {
+  padding: 6px 15px;
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+.waiter {
+  cursor: wait;
+}
+.loading {
+  opacity: 0.6;
+  pointer-events: none;
+}
+.loading i {
+  line-height: 0;
+}
+.error {
+  color: #eb1414;
+}

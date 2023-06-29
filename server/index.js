@@ -15,8 +15,6 @@ const server = http.createServer(async (req, res) => {
       data = chunk.toString();
     });
 
-    console.log(data);
-
     mailer.sendMail(data, (error, response) => {
       if (error) {
         console.log("Unable to send Mail", error);

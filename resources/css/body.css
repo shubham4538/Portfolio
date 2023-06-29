@@ -1,0 +1,47 @@
+@font-face {
+  font-family: fontR;
+  src: url("../fonts/Product\ Sans\ Regular.ttf");
+}
+@font-face {
+  font-family: fontB;
+  src: url("../fonts/Product\ Sans\ Bold.ttf");
+}
+.fontr {
+  font-family: fontR;
+}
+.fontb {
+  font-family: fontB;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  user-select: none;
+  scroll-behavior: smooth;
+  /* scroll-snap-type: y mandatory; */
+}
+.page {
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+}
+.me {
+  color: #7438af;
+}
+.page {
+  flex-direction: column;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 3.5rem 2.5rem 2.5rem;
+}
+.image {
+  width: calc(20vw + 4rem);
+  min-width: 13rem;
+}
+.contact-image {
+  width: calc(15vw + 3rem);
+  min-width: 9rem;
+}
