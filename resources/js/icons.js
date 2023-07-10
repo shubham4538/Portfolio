@@ -43,6 +43,14 @@ var projects = [
     img: "expenses",
   },
   {
+    title: "Recipe App",
+    description:
+      "Recipe App lets you create your recipes, shows what others have created",
+    link: "https://recipe-app-front.vercel.app/",
+    code: "https://github.com/shubham4538/recipe-app/",
+    img: "recipe",
+  },
+  {
     title: "JavaScript Quiz",
     description:
       "A Complete basic beginner Javascript Quiz game withsimple coding questions.",
