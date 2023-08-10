@@ -128,6 +128,7 @@
   color: #ffff;
   background-color: #3a38afc4;
   transition: all 0.5s ease-out;
+  overflow: auto;
 }
 .card .buttons {
   flex-grow: 1;

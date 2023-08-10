@@ -143,3 +143,6 @@ header {
 body:hover::-webkit-scrollbar-thumb {
   background: #a03ffa;
 }
+.card:hover::-webkit-scrollbar-thumb {
+  background: #a03ffa;
+}
