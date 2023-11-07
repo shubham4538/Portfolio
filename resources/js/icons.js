@@ -60,18 +60,26 @@ var projects = [
     img: "recipe",
   },
   {
+    title: "Insta Reel Downloader",
+    description:
+      "A Simple Instagram Reel Downloader application for Private Accounts also",
+    link: "https://shubham4538.github.io/InstaDownloader/",
+    code: "https://github.com/shubham4538/InstaDownloader",
+    img: "insta",
+  },
+  {
     title: "JavaScript Quiz",
     description:
       "A Complete basic beginner Javascript Quiz game withsimple coding questions.",
-    link: "https://shubham4538.github.io/tic-tac-toe/",
-    code: "https://github.com/shubham4538/tic-tac-toe",
+    link: "https://shubham4538.github.io/javascript-quiz",
+    code: "https://github.com/shubham4538/javascript-quiz",
     img: "quiz",
   },
   {
     title: "Tic Tac Toe",
     description: "Simple Tic-Tac-Toe Game",
-    link: "https://shubham4538.github.io/javascript-quiz",
-    code: "https://github.com/shubham4538/javascript-quiz",
+    link: "https://shubham4538.github.io/tic-tac-toe/",
+    code: "https://github.com/shubham4538/tic-tac-toe",
     img: "tictac",
   },
 ];
