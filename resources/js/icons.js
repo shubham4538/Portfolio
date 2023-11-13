@@ -60,6 +60,22 @@ var projects = [
     img: "recipe",
   },
   {
+    title: "Social Gram",
+    description:
+      "Social Gram in a Social Media Application with similar features from Instagram",
+    link: "https://social-gram-psi.vercel.app/",
+    code: "https://github.com/shubham4538/social-gram",
+    img: "socialgram",
+  },
+  {
+    title: "User Admin ECommerce App",
+    description:
+      "An ECommerce application for Users and Admin to buy and store simple inventory data",
+    link: "https://vistaar-shubham4538.vercel.app/",
+    code: "https://github.com/shubham4538/vistaar",
+    img: "vistaar",
+  },
+  {
     title: "Insta Reel Downloader",
     description:
       "A Simple Instagram Reel Downloader application for Private Accounts also",
