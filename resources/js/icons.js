@@ -27,10 +27,11 @@ var langIcons = [
   ["MongoDB", "mongodb"],
   ["Bootstrap", "bootstrap"],
   ["Tailwind", "tailwind"],
+  ["Github", "githubw" || "githubb"],
+  ["Vercel", "vercel"],
   ["Python", "python"],
   ["Java", "java"],
   ["PHP", "php"],
-  ["Github", "githubw" || "githubb"],
   ["Firebase", "firebase"],
   ["Android", "android"],
 ];
@@ -52,6 +53,14 @@ var projects = [
     link: "https://multiple-todo-list-front.vercel.app/",
     code: "https://github.com/shubham4538/multiple-todo-list/",
     img: "todolist",
+  },
+  {
+    title: "Net Run Rate Calculator",
+    description:
+      "Net Run Rate Calculator application for tournaments provided a points table for visualizing data",
+    link: "https://net-run-rate.vercel.app/",
+    code: "https://github.com/shubham4538/net-run-rate/",
+    img: "net-run-rate",
   },
   {
     title: "Recipe App",
