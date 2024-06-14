@@ -47,6 +47,14 @@ var projects = [
     img: "expenses",
   },
   {
+    title: "Web Blog",
+    description:
+      "A Blog post website which has blogs related to your project query and basic issues that come up while creating a website",
+    link: "https://shubham-web-blog.vercel.app/",
+    code: "https://github.com/shubham4538/web-blog/",
+    img: "web-blog",
+  },
+  {
     title: "Multiple To-Do List",
     description:
       "A Multiple ToDo List application which keeps your ToDo's organized",
