@@ -18,7 +18,7 @@ var langIcons = [
   ["JQuery", "jquery"],
   ["React", "react"],
   ["TypeScript", "typescript"],
-  ["go", "Golang"],
+  ["Golang", "go"],
   ["Strapi", "strapi"],
   ["Sanity", "sanity"],
   ["NextJs", "nextjs"],
