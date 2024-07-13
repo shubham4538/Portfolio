@@ -17,6 +17,7 @@ var langIcons = [
   ["JavaScript", "javascript"],
   ["JQuery", "jquery"],
   ["React", "react"],
+  ["Angular", "angular"],
   ["TypeScript", "typescript"],
   ["Golang", "go"],
   ["Strapi", "strapi"],
@@ -62,6 +63,14 @@ var projects = [
     link: "https://multiple-todo-list-front.vercel.app/",
     code: "https://github.com/shubham4538/multiple-todo-list/",
     img: "todolist",
+  },
+  {
+    title: "Angular To-Do List",
+    description:
+      "A ToDo List starter application made from angular with the simplest features just to get an understaing of Angular. My first angular project",
+    link: "https://first-todo-app-mu.vercel.app/",
+    code: "https://github.com/shubham4538/first-todo-app",
+    img: "angular_todo",
   },
   {
     title: "Net Run Rate Calculator",

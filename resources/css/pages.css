@@ -100,16 +100,16 @@
 }
 .all-projects {
   width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  display: grid;
+  max-height: calc(245px * 3);
+  overflow: hidden;
   gap: 1rem;
   margin: 1rem;
 }
 .project {
   position: relative;
   overflow: hidden;
-  flex: 1 1 230px;
+  /* flex: 1 1 230px; */
   height: 230px;
   border-radius: 10px;
   background-color: red;
@@ -206,4 +206,22 @@ form i {
 }
 .error {
   color: #eb1414;
+}
+
+/* Display n items for project */
+@media (min-width: 768px) {
+  .all-projects {
+    grid-template-columns: repeat(2, 1fr);
+    max-height: calc(245px * 2);
+  }
+}
+@media (min-width: 1024px) {
+  .all-projects {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (min-width: 1280px) {
+  .all-projects {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }

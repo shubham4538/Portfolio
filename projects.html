@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects | Shubham Singhvi</title>
+    <meta name="description" content="Portfolio of Shubham Singvhi" />
+    <meta
+      name="keywords"
+      content="Web Developer Portfolio, Website Developer Portfolio, Portfolio of Shubham Singvhi, Shubham Singvhi Portfolio, Developer Portfolio, Website Developer, Portfolio, Backend Develper Portfolio, Frontend Develper Portfolio, FullStack Developer Portfolio"
+    />
+    <link
+      rel="icon"
+      href="./resources/images/stickers/bg.png"
+      type="image/x-icon"
+    />
+
+    <!-- Fonts -->
+    <link
+      rel="preload"
+      as="font"
+      href="./resources/fonts/Product Sans Bold.ttf"
+      type="font/ttf"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      as="font"
+      href="./resources/fonts/Product Sans Regular.ttf"
+      type="font/ttf"
+      crossorigin
+    />
+
+    <link
+      href="https://raw.githack.com/shubham4538/fontawesome-6-pro/main/css/all.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="./resources/css/main.css" />
+    <link rel="stylesheet" href="./resources/css/body.css" />
+    <link rel="stylesheet" href="./resources/css/pages.css" />
+    <link rel="stylesheet" href="./resources/css/style.css" />
+    <script src="./resources/js/icons.js"></script>
+  </head>
+  <body>
+    <div class="m-2">
+      <div class="page" id="projects">
+        <div class="title w-full flex justify-center gap-4 relative">
+          <a href="/index.html#projects">
+            <i class="fas fa-left" style="position: absolute; left: 0"></i
+          ></a>
+          <i class="fal fa-pen-ruler"></i>
+          <h1 class="fontb me">All Projects</h1>
+        </div>
+        <!--  -->
+        <div class="all-projects" style="max-height: none"></div>
+      </div>
+    </div>
+    <script>
+      // Projects render
+      var projTag = document.querySelector(".all-projects");
+      projects.forEach((proj) => {
+        projTag.innerHTML += `
+    <div class="project">
+      <img src="./resources/images/projects/${proj.img}.png" alt="" />
+      <div class="card flex flex-col fontr gap-2">
+        <span class="fontb text-xl">${proj.title}</span>
+        <span>${proj.description}</span>
+        <div class="buttons flex justify-between">
+          <a class="button" href="${proj.link}" target="_blank">
+            <i class="far fa-link"></i>
+            <span>Link</span>
+          </a>
+          <a class="button" href="${proj.code}" target="_blank">
+            <i class="far fa-code"></i>
+            <span>Code</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  `;
+      });
+    </script>
+  </body>
+</html>
