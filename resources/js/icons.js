@@ -38,7 +38,7 @@ var langIcons = [
   ["Android", "android"],
 ];
 
-// Projects 😁
+// Projects
 var projects = [
   {
     title: "Expense Tracker",
@@ -103,6 +103,13 @@ var projects = [
     link: "https://vistaar-shubham4538.vercel.app/",
     code: "https://github.com/shubham4538/vistaar",
     img: "vistaar",
+  },
+  {
+    title: "Insta Media Downloader",
+    description: "Instagram Media Downloader (2.0)",
+    link: "https://instagram-downloader-two-blush.vercel.app/",
+    code: "https://github.com/shubham4538/instagram-downloader-2.0",
+    img: "insta-2",
   },
   {
     title: "Insta Reel Downloader",
