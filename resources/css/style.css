@@ -1,11 +1,24 @@
 /* Header */
 header {
   position: fixed;
-  justify-content: space-around;
   z-index: 30;
   top: 0;
   right: 0;
   left: 0;
+}
+
+header .new-portfolio {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  color: #fff;
+  background: #5438f3;
+}
+header .new-portfolio:hover {
+  text-decoration: underline;
+}
+
+header .padd {
   padding: 0.75rem;
 }
 
